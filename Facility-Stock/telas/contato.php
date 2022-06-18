@@ -46,14 +46,14 @@ include('classes/mysql.php')
     <section class="dados">
         <form method="post" action="#">
             <p>Nome*</p>
-            <input type="text" id="nome" placeholder="Informe seu nome">
+            <input type="text" id="nome" name="nome" placeholder="Informe seu nome">
             <p>E-mail*</p>
-            <input type="text" id="email" placeholder="Informe seu e-mail">
+            <input type="text" id="email" name="email" placeholder="Informe seu e-mail">
             <p>Telefone</p>
-            <input type="text" id="telefone" placeholder="Telefone para contato">
+            <input type="text" id="telefone" name="telefone" placeholder="Telefone para contato">
             <p>Mensagem</p>
-            <textarea name="" id="msg" cols="80" rows="10" placeholder="Faça um breve resumo para podermos direcioná-lo" padding="10px"></textarea>
-            <p><input type="submit" id="botao" name="botao" class="botao" value="Enviar"></p>
+            <textarea name="msg" id="msg" cols="80" rows="10" placeholder="Faça um breve resumo para podermos direcioná-lo" padding="10px"></textarea>
+            <p><button class="btn">Enviar</button></p>
             <?php
             if (isset(($_POST['email']))) {
                 $email = addslashes($_POST['email']);

@@ -16,7 +16,7 @@ class formContato
 
     public static function contato($email, $nome, $telefone, $msg)
     {
-        $sql = Mysql::conectar()->prepare("INSERT INTO contato VALUES (?,?,?,?)");
+        $sql = Mysql::conectar()->prepare("INSERT INTO contatos VALUES (?,?,?,?)");
         $sql->execute(array($email, $nome, $telefone, $msg));
     }
 }

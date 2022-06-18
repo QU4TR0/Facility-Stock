@@ -12,7 +12,9 @@
     <header>
         <nav>
             <div id="menu">
+            <a href="../index.php">
                 <h1>Facility Stock</h1>
+            </a>    
                 <a href="../index.php"> Home </a>
                 <a href="#"> Quem somos </a>
                 <a href="contato.php"> Contato </a>

@@ -122,7 +122,7 @@
             <p>Agende uma demonstração e nossa equipe irá te mostrar as</p>
             <p>funcionalidades e irá tirar todas suas dúvidas</p>
             <div class="btnContato">
-                <a href="telas/contato.html"><button>Fala com um Consultor</button></a>
+                <a href="telas/contato.php"><button>Fala com um Consultor</button></a>
             </div>
             <!--BOTÃO CONTATO-->
         </div>
